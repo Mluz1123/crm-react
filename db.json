@@ -35,14 +35,6 @@
       "telefono": 1398198938,
       "email": "pedro@juan.com",
       "empresa": "Codigo Con Juan"
-    },
-    {
-      "nombre": "Manuel Quintero",
-      "empresa": "Prubas.com",
-      "email": "maluz1123@gmail.com",
-      "telefono": "3124223112",
-      "notas": "El cliente requiere un ecommers",
-      "id": 6
     }
   ]
 }
