@@ -35,6 +35,30 @@
       "telefono": 1398198938,
       "email": "pedro@juan.com",
       "empresa": "Codigo Con Juan"
+    },
+    {
+      "nombre": "Fercho",
+      "empresa": "Imperial",
+      "email": "imperial@colombia.com",
+      "telefono": "69696969",
+      "notas": "El cliente requiere mejoras en su aplicativo de ventas.",
+      "id": 6
+    },
+    {
+      "nombre": "Manuel Quintero",
+      "empresa": "dsasdas",
+      "email": "454546546",
+      "telefono": "3124223112",
+      "notas": "gfdsgsgdfg",
+      "id": 7
+    },
+    {
+      "nombre": "Salud",
+      "empresa": "Código con Manuel",
+      "email": "quintero.mf@22gmail.com",
+      "telefono": "3124182122",
+      "notas": "fgfdsgfdsgf",
+      "id": 8
     }
   ]
 }

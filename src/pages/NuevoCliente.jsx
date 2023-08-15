@@ -14,12 +14,12 @@ export async function action({ request }) {
   if (Object.values(datos).includes('')) {
     errores.push('Todos los campos son obligatorios')
   }
-  //   let regex = new RegExp(
-  //     "([!#-'*+/-9=?A-Z^-~-]+(.[!#-'*+/-9=?A-Z^-~-]+)*|\"([]!#-[^-~ \t]|(\\[\t -~]))+\")@([!#-'*+/-9=?A-Z^-~-]+(.[!#-'*+/-9=?A-Z^-~-]+)*|[[\t -Z^-~]*])"
-  //   )
-  //   if (!regex.test(email).length) {
-  //     errores.push('El email no es válido')
-  //   }
+  let regex = new RegExp(
+    "([!#-'*+/-9=?A-Z^-~-]+(.[!#-'*+/-9=?A-Z^-~-]+)*|\"([]!#-[^-~ \t]|(\\[\t -~]))+\")@([!#-'*+/-9=?A-Z^-~-]+(.[!#-'*+/-9=?A-Z^-~-]+)*|[[\t -Z^-~]*])"
+  )
+  if (!regex.test(email)) {
+    errores.push('El Email no es válido')
+  }
   //Retornar datos si hay errores
   if (Object.keys(errores).length) {
     return errores
