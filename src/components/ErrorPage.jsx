@@ -12,7 +12,7 @@ export default function ErrorPage() {
       <p className='text-center text-3xl font-extrabold mt-20 text-blue-400'>
         Sorry, an unexpected error has occurred in CRM - Clientes.
       </p>
-      <p className='text-center'>
+      <p className='text-center text-white'>
         <i>{error.statusText || error.message}</i>
       </p>
     </div>
